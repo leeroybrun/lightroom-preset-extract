@@ -1,0 +1,14 @@
+{
+  "name": "lightroom-preset-extract",
+  "version": "1.0.0",
+  "description": "Extract Lightroom preset/settings from JPG files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exiftool-vendored": "^4.15.0"
+  }
+}
