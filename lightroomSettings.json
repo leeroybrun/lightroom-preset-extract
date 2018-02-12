@@ -1,4 +1,6 @@
 [
+  LensInfo, //: '35mm f/1.4',
+  Lens, //: 'FE 35mm F1.4 ZA',
   WhiteBalance, //: 'Custom',
   ColorTemperature, //: 6384,
   Tint, //: 0,
