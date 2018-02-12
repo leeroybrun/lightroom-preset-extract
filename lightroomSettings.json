@@ -1,22 +1,29 @@
 [
+  // Informations
   LensInfo, //: '35mm f/1.4',
   Lens, //: 'FE 35mm F1.4 ZA',
+  CameraProfile, //: 'Adobe Standard',
+  LensProfileSetup, //: 'LensDefaults',
+  LensProfileName, //: 'Adobe (Sony FE 35mm F1.4 ZA)',
+  LensProfileFilename, //: 'SONY (Sony FE 35mm F1.4 ZA) - RAW.lcp',
+
+  // White balance
   WhiteBalance, //: 'Custom',
   ColorTemperature, //: 6384,
   Tint, //: 0,
+
+  // Basic
   Saturation, //: 0,
-  Sharpness, //: '16',
-  LuminanceSmoothing, //: 11,
-  ColorNoiseReduction, //: 25,
-  VignetteAmount, //: 0,
-  ShadowTint, //: 0,
-  RedHue, //: '+30',
-  RedSaturation, //: -10,
-  GreenHue, //: '+50',
-  GreenSaturation, //: -10,
-  BlueHue, //: -12,
-  BlueSaturation, //: -15,
   Vibrance, //: '+15',
+  Exposure2012, //: -0.45,
+  Contrast2012, //: -72,
+  Highlights2012, //: -53,
+  Shadows2012, //: '+18',
+  Whites2012, //: -52,
+  Blacks2012, //: '+31',
+  Clarity2012, //: 0,
+
+  // HSL adjustments
   HueAdjustmentRed, //: '+16',
   HueAdjustmentOrange, //: '+7',
   HueAdjustmentYellow, //: -31,
@@ -41,25 +48,38 @@
   LuminanceAdjustmentBlue, //: -23,
   LuminanceAdjustmentPurple, //: 0,
   LuminanceAdjustmentMagenta, //: 0,
+
+  // Sharpening
+  Sharpness, //: '16',
+  SharpenRadius, //: '+1.0',
+  SharpenDetail, //: 25,
+  SharpenEdgeMasking, //: 0,
+
+  // Noise reduction
+  LuminanceSmoothing, //: 11,
+  ColorNoiseReduction, //: 25,
+
+  // Vignette
+  VignetteAmount, //: 0,
+  PostCropVignetteAmount, //: 0,
+
+  // Dehaze
+  Dehaze, //: 0,
+
+  // Grain
+  GrainAmount, //: 13,
+  GrainSize, //: 25,
+  GrainFrequency, //: 50,
+
+  // Split toning
   SplitToningShadowHue, //: 0,
   SplitToningShadowSaturation, //: 0,
   SplitToningHighlightHue, //: 0,
   SplitToningHighlightSaturation, //: 0,
   SplitToningBalance, //: 0,
-  ParametricShadows, //: '+14',
-  ParametricDarks, //: -1,
-  ParametricLights, //: -19,
-  ParametricHighlights, //: -30,
-  ParametricShadowSplit, //: 18,
-  ParametricMidtoneSplit, //: 36,
-  ParametricHighlightSplit, //: 64,
-  SharpenRadius, //: '+1.0',
-  SharpenDetail, //: 25,
-  SharpenEdgeMasking, //: 0,
-  PostCropVignetteAmount, //: 0,
-  GrainAmount, //: 13,
-  GrainSize, //: 25,
-  GrainFrequency, //: 50,
+
+  
+  
   LuminanceNoiseReductionDetail, //: 50,
   ColorNoiseReductionDetail, //: 50,
   LuminanceNoiseReductionContrast, //: 0,
@@ -75,31 +95,16 @@
   PerspectiveX, //: 0,
   PerspectiveY, //: 0,
   AutoLateralCA, //: 1,
-  Exposure2012, //: -0.45,
-  Contrast2012, //: -72,
-  Highlights2012, //: -53,
-  Shadows2012, //: '+18',
-  Whites2012, //: -52,
-  Blacks2012, //: '+31',
-  Clarity2012, //: 0,
+  
   DefringePurpleAmount, //: 0,
   DefringePurpleHueLo, //: 30,
   DefringePurpleHueHi, //: 70,
   DefringeGreenAmount, //: 0,
   DefringeGreenHueLo, //: 40,
   DefringeGreenHueHi, //: 60,
-  Dehaze, //: 0,
+  
   ConvertToGrayscale, //: false,
-  ToneCurveName, //: 'Linear',
-  ToneCurveName2012, //: 'Custom',
-  CameraProfile, //: 'Adobe Standard',
-  LensProfileSetup, //: 'LensDefaults',
-  LensProfileName, //: 'Adobe (Sony FE 35mm F1.4 ZA)',
-  LensProfileFilename, //: 'SONY (Sony FE 35mm F1.4 ZA) - RAW.lcp',
-  LensProfileDigest, //: 'B1C1124AB231BB95F1DA4CC8449CB5CB',
-  LensProfileDistortionScale, //: 100,
-  LensProfileChromaticAberrationScale, //: 100,
-  LensProfileVignettingScale, //: 100,
+  
   UprightVersion, //: 151388160,
   UprightCenterMode, //: 0,
   UprightCenterNormX, //: 0.5,
@@ -111,13 +116,10 @@
   UprightFourSegmentsCount, //: 0,
   GrainSeed, //: 2386317808,
   HasSettings, //: true,
-  CropTop, //: 0.078431,
-  CropLeft, //: 0,
-  CropBottom, //: 0.921569,
-  CropRight, //: 1,
-  CropAngle, //: 0,
-  CropConstrainToWarp, //: 0,
-  HasCrop, //: true,
+
+  // Tone curve
+  ToneCurveName, //: 'Linear',
+  ToneCurveName2012, //: 'Custom',
   ToneCurve, //: [ '0, 0', '255, 255' ],
   ToneCurveRed, //: [ '0, 0', '255, 255' ],
   ToneCurveGreen, //: [ '0, 0', '255, 255' ],
@@ -126,6 +128,35 @@
   ToneCurvePV2012Red, //: [ '0, 0', '47, 19', '82, 61', '114, 122', '177, 196', '255, 255' ],
   ToneCurvePV2012Green, //: [ '0, 0', '46, 20', '86, 72', '115, 124', '179, 200', '255, 255' ],
   ToneCurvePV2012Blue, //: [ '0, 0', '38, 18', '79, 64', '115, 122', '179, 200', '255, 255' ],
+
+  // Parametric tone curve
+  ParametricShadows, //: '+14',
+  ParametricDarks, //: -1,
+  ParametricLights, //: -19,
+  ParametricHighlights, //: -30,
+  ParametricShadowSplit, //: 18,
+  ParametricMidtoneSplit, //: 36,
+  ParametricHighlightSplit, //: 64,
+
+  // Camera calibration
+  ShadowTint, //: 0,
+  RedHue, //: '+30',
+  RedSaturation, //: -10,
+  GreenHue, //: '+50',
+  GreenSaturation, //: -10,
+  BlueHue, //: -12,
+  BlueSaturation, //: -15,
+
+  // Crop
+  CropTop, //: 0.078431,
+  CropLeft, //: 0,
+  CropBottom, //: 0.921569,
+  CropRight, //: 1,
+  CropAngle, //: 0,
+  CropConstrainToWarp, //: 0,
+  HasCrop, //: true,
+
+  // Local adjustemnts
   GradientBasedCorrLocalWhites2012, //: -0.700945,
   GradientBasedCorrLocalBlacks2012, //: -0.327307,
   GradientBasedCorrLocalDehaze, //: 0,
