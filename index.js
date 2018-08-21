@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const filename = path.join(__dirname, 'test_files', 'yeti-8.jpg');
+const filename = path.join(__dirname, 'test_files', 'testImage.jpg');
 
 console.log('Reading from ', filename);
 

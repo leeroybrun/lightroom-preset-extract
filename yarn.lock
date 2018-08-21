@@ -22,3 +22,7 @@ exiftool-vendored@^4.15.0:
   optionalDependencies:
     exiftool-vendored.exe "10.76.0"
     exiftool-vendored.pl "10.76.0"
+
+exiftool.js@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/exiftool.js/-/exiftool.js-0.3.0.tgz#e82c125606a204f5b47e2ac713c7f64a8b8c9d1b"

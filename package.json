@@ -9,6 +9,7 @@
   "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "exiftool-vendored": "^4.15.0"
+    "exiftool-vendored": "^4.15.0",
+    "exiftool.js": "^0.3.0"
   }
 }
